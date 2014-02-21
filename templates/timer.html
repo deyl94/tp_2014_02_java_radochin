@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="/img/favicon.ico">
+
+        <title>Тик-так!</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="/css/jumbotron-narrow.css" rel="stylesheet">
+
+    </head>
+
+    <body onload='setInterval(function(){refresh()}, ${refreshPeriod} ); setClientTime();'>
+
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Домой</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <h3 class="text-muted">КофеХантер</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h1>Кофе часики</h1>
+                <p class="lead">Время у меня: <span id='ClientTime'></span></p>
+                <p class="lead">Время на сервере: ${serverTime}</p>
+                <p class="lead">Номер сессии: ${sessionId}</p>
+            </div>
+                <p></p>
+
+            <div class="footer">
+                <p>&copy; CoffeeHunter 2014</p>
+            </div>
+
+        </div> <!-- /container -->
+	
+    <script>
+        function setClientTime() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            if (hours < 10)
+                hours = '0' + hours;
+            if (minutes < 10)
+                minutes = '0' + minutes;
+            if (seconds < 10)
+                seconds = '0' + seconds;
+            document.getElementById('ClientTime').innerHTML = hours + ':' + minutes + ':' + seconds;
+        }
+        function refresh() {
+            location.reload();
+        }
+    </script>
+	
+    </body>
+</html>

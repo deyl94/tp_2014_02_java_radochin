@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="tp_2014_02_java_radochin" />
+        <module name="coffee" />
       </profile>
     </annotationProcessing>
   </component>
