@@ -41,7 +41,7 @@
             </div>
 
         </div> <!-- /container -->
-	
+
     <script>
         function setClientTime() {
             var currentTime = new Date();
@@ -54,12 +54,12 @@
                 minutes = '0' + minutes;
             if (seconds < 10)
                 seconds = '0' + seconds;
-            document.getElementById('ClientTime').innerHTML = hours + ':' + minutes + ':' + seconds;
+            document.getElementById('ClientTime').innerHTML = hours + '.' + minutes + '.' + seconds;
         }
         function refresh() {
             location.reload();
         }
     </script>
-	
+
     </body>
 </html>

@@ -31,10 +31,8 @@ public class Frontend extends HttpServlet {
     }
 
     public String getTime() {
-        Date date = new Date();
-        date.getTime();
         DateFormat formatter = new SimpleDateFormat("HH.mm.ss");
-        return formatter.format(date);
+        return formatter.format( new Date() );
     }
 
     public void doGet(HttpServletRequest request,
@@ -43,7 +41,6 @@ public class Frontend extends HttpServlet {
         session = request.getSession();
         if (session.getAttribute("login") == null || session.getAttribute("pass") == null) {
             response.sendRedirect("/");
-            return;
         }
 
         response.setContentType("text/html;charset=utf-8");
@@ -53,41 +50,35 @@ public class Frontend extends HttpServlet {
         if (request.getPathInfo().equals("/timer")) {
             pageVariables.put("refreshPeriod", "1000");
             pageVariables.put("serverTime", getTime());
-            pageVariables.put("sessionId", session.getAttribute("userId"));
+            pageVariables.put("sessionId", session.getAttribute("sessionId"));
             response.getWriter().println(PageGenerator.getPage("timer.html", pageVariables));
-            return;
         }
     }
 
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response) throws ServletException, IOException {
 
-        session = request.getSession();
-        if (request.getParameter("login").equals(session.getAttribute("login")) &&
-                request.getParameter("pass").equals(session.getAttribute("pass")) ) {
-            response.sendRedirect("/timer");
-            return;
-        }
-
         if (users.containsKey(request.getParameter("login")) &&
                 request.getParameter("pass").equals(users.get(request.getParameter("login")))) {
+
+            session = request.getSession();
+            if (request.getParameter("login").equals(session.getAttribute("login")) &&
+                    request.getParameter("pass").equals(session.getAttribute("pass")) ) {
+                response.sendRedirect("/timer");
+            }
+
             session.invalidate();
             session = request.getSession();
             session.setAttribute("login", request.getParameter("login"));
             session.setAttribute("pass", request.getParameter("pass"));
-            session.setAttribute("userId", userIdGenerator.getAndIncrement());
-            response.setContentType("text/html;charset=utf-8");
-            response.setStatus(HttpServletResponse.SC_OK);
+            session.setAttribute("sessionId", userIdGenerator.getAndIncrement());
 
             if (request.getPathInfo().equals("/timer")) {
                 response.sendRedirect("/timer");
-                return;
             }
         }
         else {
             response.sendRedirect("/");
-            return;
         }
-
     }
 }

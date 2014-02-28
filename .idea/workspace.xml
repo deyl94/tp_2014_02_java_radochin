@@ -55,23 +55,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/server/Main.java" line="2" class="Main.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,25 +68,34 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="731">
+            <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frontend.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Frontend.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="23" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+            <state line="62" column="0" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.35612535" vertical-offset="725" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServlet.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+            <state line="6" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="2.8846154" vertical-offset="177" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/timer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="52" selection-start="1211" selection-end="1211" vertical-scroll-proportion="-8.5" vertical-offset="357" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -111,19 +104,28 @@
       <file leaf-file-name="PageGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="21" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="612">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="File.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://G:/programms/Java/jdk1.7.0_51/src.zip!/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="218" column="41" selection-start="8876" selection-end="8876" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="36754">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="34" selection-start="920" selection-end="920" vertical-scroll-proportion="0.81772155" vertical-offset="0" max-vertical-offset="578">
-              <folding />
+            <state line="30" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="697">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,10 +146,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/server.java" />
         <option value="$PROJECT_DIR$/static/index.html" />
-        <option value="$PROJECT_DIR$/templates/timer.html" />
         <option value="$PROJECT_DIR$/src/main/java/templater/PageGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frontend/Frontend.java" />
+        <option value="$PROJECT_DIR$/templates/timer.html" />
         <option value="$PROJECT_DIR$/src/main/java/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frontend/Frontend.java" />
       </list>
     </option>
   </component>
@@ -170,7 +172,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -186,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,9 +207,150 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_radochin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +366,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.MainCoffee">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -448,7 +597,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="coffee" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -469,16 +624,18 @@
       <workItem from="1393018042435" duration="965000" />
       <workItem from="1393019029977" duration="2724000" />
       <workItem from="1393022088631" duration="19000" />
-      <workItem from="1393022108777" duration="233000" />
+      <workItem from="1393022108777" duration="1828000" />
+      <workItem from="1393025856237" duration="1224000" />
+      <workItem from="1393042993990" duration="9446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3941000" />
+    <option name="totallyTimeSpent" value="16206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -487,7 +644,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -500,12 +657,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -531,6 +688,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="23" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="63" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="34" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="731">
           <folding />
         </state>
@@ -545,24 +762,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="6" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="612">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="697">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,31 +797,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="6" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="612">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,30 +825,154 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+        <state line="27" column="19" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.M0/jetty-servlet-9.1.0.M0.jar!/org/eclipse/jetty/servlet/ServletContextHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="8" column="28" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.M0/jetty-servlet-9.1.0.M0-sources.jar!/org/eclipse/jetty/servlet/ServletContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="323" column="46" selection-start="11654" selection-end="11662" vertical-scroll-proportion="-7.48" vertical-offset="4199" max-vertical-offset="20757">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#46057#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8354#8355#0" expanded="false" />
+            <element signature="e#8405#8406#0" expanded="false" />
+            <element signature="e#8726#8727#0" expanded="false" />
+            <element signature="e#8800#8801#0" expanded="false" />
+            <element signature="e#14372#14380#0" expanded="false" />
+            <element signature="e#21095#21103#0" expanded="false" />
+            <element signature="e#21314#21322#0" expanded="false" />
+            <element signature="e#21384#21392#0" expanded="false" />
+            <element signature="e#22196#22197#0" expanded="false" />
+            <element signature="e#22237#22238#0" expanded="false" />
+            <element signature="e#22292#22293#0" expanded="false" />
+            <element signature="e#22330#22331#0" expanded="false" />
+            <element signature="e#22491#22492#0" expanded="false" />
+            <element signature="e#22535#22536#0" expanded="false" />
+            <element signature="e#22603#22604#0" expanded="false" />
+            <element signature="e#22655#22656#0" expanded="false" />
+            <element signature="e#22731#22732#0" expanded="false" />
+            <element signature="e#22791#22792#0" expanded="false" />
+            <element signature="e#22845#22846#0" expanded="false" />
+            <element signature="e#22883#22884#0" expanded="false" />
+            <element signature="e#22987#22988#0" expanded="false" />
+            <element signature="e#23075#23076#0" expanded="false" />
+            <element signature="e#23167#23168#0" expanded="false" />
+            <element signature="e#23243#23244#0" expanded="false" />
+            <element signature="e#23323#23324#0" expanded="false" />
+            <element signature="e#23387#23388#0" expanded="false" />
+            <element signature="e#23443#23444#0" expanded="false" />
+            <element signature="e#23483#23484#0" expanded="false" />
+            <element signature="e#23579#23580#0" expanded="false" />
+            <element signature="e#23659#23660#0" expanded="false" />
+            <element signature="e#23828#23829#0" expanded="false" />
+            <element signature="e#23876#23877#0" expanded="false" />
+            <element signature="e#24023#24024#0" expanded="false" />
+            <element signature="e#24060#24061#0" expanded="false" />
+            <element signature="e#25113#25114#0" expanded="false" />
+            <element signature="e#25175#25176#0" expanded="false" />
+            <element signature="e#25360#25361#0" expanded="false" />
+            <element signature="e#25416#25417#0" expanded="false" />
+            <element signature="e#25589#25590#0" expanded="false" />
+            <element signature="e#25639#25640#0" expanded="false" />
+            <element signature="e#25788#25789#0" expanded="false" />
+            <element signature="e#25826#25827#0" expanded="false" />
+            <element signature="e#26015#26016#0" expanded="false" />
+            <element signature="e#26073#26074#0" expanded="false" />
+            <element signature="e#27402#27403#0" expanded="false" />
+            <element signature="e#27436#27437#0" expanded="false" />
+            <element signature="e#27492#27493#0" expanded="false" />
+            <element signature="e#27526#27527#0" expanded="false" />
+            <element signature="e#27681#27682#0" expanded="false" />
+            <element signature="e#27721#27722#0" expanded="false" />
+            <element signature="e#27787#27788#0" expanded="false" />
+            <element signature="e#27831#27832#0" expanded="false" />
+            <element signature="e#28182#28200#0" expanded="false" />
+            <element signature="e#28287#28315#0" expanded="false" />
+            <element signature="e#41697#41725#0" expanded="false" />
+            <element signature="e#42762#42791#0" expanded="false" />
+            <element signature="e#45341#45342#0" expanded="false" />
+            <element signature="e#45382#45383#0" expanded="false" />
+            <element signature="e#45477#45478#0" expanded="false" />
+            <element signature="e#45515#45516#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="23" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1683">
+        <state line="350" column="19" selection-start="14473" selection-end="14473" vertical-scroll-proportion="0.0" vertical-offset="4628" max-vertical-offset="15215">
+          <folding>
+            <element signature="e#0#35272#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#34288#34289#0" expanded="false" />
+            <element signature="e#34324#34325#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/programms/Java/jdk1.7.0_51/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="41" selection-start="8876" selection-end="8876" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="36754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="592" column="40" selection-start="22037" selection-end="22049" vertical-scroll-proportion="0.5754986" vertical-offset="8876" max-vertical-offset="11356">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="920" selection-end="920" vertical-scroll-proportion="0.81772155" vertical-offset="0" max-vertical-offset="578">
+        <state line="30" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="52" selection-start="1211" selection-end="1211" vertical-scroll-proportion="-8.5" vertical-offset="357" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="2.8846154" vertical-offset="177" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.35612535" vertical-offset="725" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
